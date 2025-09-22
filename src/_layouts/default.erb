@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ShalomCloud</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <%= render "head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="navbar-brand">
+          <img src="/images/SC_Reduced.png" alt="ShalomCloud" class="logo">
+        </a>
+        <ul class="nav-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="https://blog.shalomcloud.com">Our Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+      
+    <main>
+      <%= yield %>
+    </main>
+
+    <%= render "footer", metadata: site.metadata %>
+  </body>
+</html>

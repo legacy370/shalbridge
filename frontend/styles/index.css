@@ -1,0 +1,259 @@
+:root {
+  --body-background: #f2f2f2;
+  --body-color: #444;
+  --heading-color: black;
+  --action-color: #d64045;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Account for fixed navbar when jumping to sections */
+#pricing {
+  scroll-margin-top: 120px;
+}
+#features {
+  scroll-margin-top: 120px;
+}
+#contact {
+  margin-top: 5rem;
+}
+
+
+body {
+  padding-top: 110px;   /* Adjust so that it's not hidden by the banner */
+  background: var(--body-background);
+  color: var(--body-color);
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  margin: 0 8px;
+  font-size: 108%;
+  line-height: 1.5;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.navbar-brand .logo {
+  height: 100px;
+  width: auto;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+  align-items: center;  /* Ensures menu items align with logo */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  color: #007bff;
+}
+video {
+  width: 50em;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.99);  /* Subtle shadow */
+  max-width: 100%;              /* Responsive on smaller screens */
+}
+
+
+a {
+  color: var(--action-color);
+  text-decoration: underline;
+  text-decoration-color: #ffb088;
+}
+
+h1 {
+  margin: 1rem 0 3rem;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--heading-color);
+  line-height: 1.2;
+}
+
+body > header {
+  margin: 1rem;
+  text-align: center;
+}
+
+body > header img {
+  display: inline-block;
+  width: 100px;
+  max-width: 100%;
+}
+
+body > nav ul {
+  margin: 1rem 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+body > nav a {
+  text-decoration: none;
+}
+
+main {
+  margin: 2rem auto 4rem;
+  max-width: 65rem;
+  min-height: calc(100vh - 200px);
+  padding: 25px 25px 50px;
+  background: white;
+  box-shadow: 2px 3px 3px #ddd;
+  border-radius: 3px;
+
+  @media (max-width: 500px) {
+    padding: 16px 16px 50px;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #bbb;
+  margin: 3rem 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.feature h3 {
+  text-align: center;
+}
+.feature p {
+  text-align: center;
+}
+.feature .bi {
+  color: blue;
+  font-size: 2em;
+  margin-left: 40%;
+}
+.pricing-section {
+  padding: 0.5 0;
+  background-color: #f8f9fa;
+}
+.pricing-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center
+}
+.pricing-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+.pricing-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+}
+.pricing-card .price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0057b7;
+  margin: 1rem 0;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+.pricing-card ul li i {
+  color: #0057b7;
+  margin-right: 0.5rem;
+}
+
+.trial-offer {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0057b7;
+  margin-top: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {display: block;}
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
