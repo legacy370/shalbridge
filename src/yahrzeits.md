@@ -46,7 +46,7 @@ The modern approach to Yahrzeit communications eliminates the previous either-or
 
 Synagogue services often include public recognition of Yahrzeits, and management systems generate specialized Bimah lists for these announcements. These lists can be organized by Hebrew date, Gregorian date, or presented as consolidated lists that accommodate different congregational practices.
 
-Recent enhancements allow congregations to add [customary phrases or acronyms](https://blog.shalomcloud.com/2025/02/10/add-your-preferred-phrase-to-the-yahrzeit-combo-bimah-list/) when announcing Yahrzeits where the related family member is also deceased. Whether using "OBM," "z"l," "A"H," or other traditional expressions, these additions honor congregational customs while maintaining consistency in announcements.
+Recent enhancements allow congregations to add [custom phrases or acronyms](https://blog.shalomcloud.com/2025/02/10/add-your-preferred-phrase-to-the-yahrzeit-combo-bimah-list/) when announcing Yahrzeits where the related family member is also deceased. Whether using "OBM," "z"l," "A"H," or other traditional expressions, these additions honor congregational customs while maintaining consistency in announcements.
 
 The [Combo Bimah List](https://blog.shalomcloud.com/2023/07/16/two-small-enhancements-plaque-location-on-the-bimah-list/) feature consolidates multiple types of announcements into a single document, streamlining service preparation while ensuring comprehensive coverage of all memorial observances.
 
