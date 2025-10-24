@@ -8,7 +8,12 @@ layout: default
 <section class="video-section">
   <div class="container">
     <div class="video-wrapper">
-      <video controls preload="metadata" poster="/images/poster.png">
+      <video 
+        controls
+        loop
+        playsinline
+        preload="metadata"
+        poster="/images/poster.png">
         <source src="/videos/ShalomCloud_Overview.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
@@ -33,7 +38,11 @@ layout: default
   <div class="feature">
     <i class="bi bi-calendar-event"></i>
     <h3>Event Scheduling</h3>
-    <p>Organize events, send reminders, and manage RSVPs effortlessly.</p>
+    <p>
+      <a href="{% link shopping_cart.md %}">
+        Allow members and non-members to register for events and to purchase items.
+      </a>
+    </p>
   </div>
 
   <div class="feature">
@@ -57,13 +66,17 @@ layout: default
   <div class="feature">
     <i class="bi bi-ui-checks-grid"></i>
     <h3>Cemetery</h3>
-    <p>Track responsible for, reserved for, and occupant by plot. Attach documents and pictures to each plot.</p>
+    <p><a href="https://docs.google.com/presentation/d/18fx1bDKk48lt7GJV6pjfSx6hPXUtBPKNXWfTEwPhw9o/">
+    Track responsible for, reserved for, and occupant by plot. Attach documents and pictures to each plot.</a></p>
   </div>
 
   <div class="feature">
     <i class="bi bi-shop"></i>
     <h3>Religious School</h3>
-    <p>Track students per grade level; produce rosters, email or text parents.</p>
+    <p><a href="{% link religious_school.md %}">
+        Track students per grade level; produce rosters, email or text parents.
+        </a>
+    </p>
   </div>
 
   <div class="feature">
@@ -75,30 +88,56 @@ layout: default
 
 
 <div id="pricing" class="pricing-section"><h1>Simple, Affordable Pricing</h1></div>
+
 <div class="features-grid">
   <div class="pricing-card">
-    <h3>Small Plan</h3>
-    <div class="price">$72/month</div>
-      <ul>
-        <li><i class="bi bi-check-circle"></i>Up to 125 Member Families</li>
-      </ul>
-  </div>
-  <div class="pricing-card">
-    <h3>Medium Plan</h3>
-    <div class="price">$108/month</div>
-      <ul>
-        <li><i class="bi bi-check-circle"></i>126 to 250 Member Families</li>
-      </ul>
-  </div>
-  <div class="pricing-card">
-    <h3>Large Plan</h3>
-    <div class="price">$144/month</div>
-      <ul>
-        <li><i class="bi bi-check-circle"></i>More than 250 Member Families</li>
-      </ul>
+    <h3>Small Plans</h3>
+    <ul>
+      <li><i class="bi bi-check-circle"></i>Up to 125 Member Families</li>
+    </ul>
+    <div class="price">$36/month</div>
+    <div class="support-label">Standard Support</div>
+    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+    <hr class="tier-separator">
+    <div class="support-tier premium-tier">
+        <div class="price">$72/month</div>
+        <div class="support-label">Premium Support</div>
+        <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
     </div>
   </div>
+  <div class="pricing-card">
+    <h3>Medium Plans</h3>
+    <ul>
+      <li><i class="bi bi-check-circle"></i>126 to 250 Member Families</li>
+    </ul>
+    <div class="price">$54/month</div>
+    <div class="support-label">Standard Support</div>
+    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+    <hr class="tier-separator">
+    <div class="support-tier premium-tier">
+      <div class="price">$108/month</div>
+      <div class="support-label">Premium Support</div>
+      <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
+    </div>
+  </div>
+  <div class="pricing-card">
+    <h3>Large Plans</h3>
+    <ul>
+      <li><i class="bi bi-check-circle"></i>Over 250 Member Families</li>
+    </ul>
+    <div class="price">$72/month</div>
+    <div class="support-label">Standard Support</div>
+    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+    <hr class="tier-separator">
+    <div class="support-tier premium-tier">
+      <div class="price">$144/month</div>
+      <div class="support-label">Premium Support</div>
+      <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
+      
+    </div>
+  </div>
+  </div>
   <div class="trial-offer">Two-month free trial for all levels</div>
-  <p class="text-center text-muted small">No credit card required. Full access during trial.</p>
+  <div><p class="text-center text-muted small">No credit card required. Full access during trial.</p></div>
 
 {% render "contact_form" %}
