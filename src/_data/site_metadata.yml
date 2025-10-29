@@ -4,8 +4,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: ShalomCloud Synagogue Management Software
+title: ShalomCloud Synagogue and Temple Management Software
 tagline: With genuine human support by phone, email, and custom videos
 email: info@shalomcloud.com
 description: >-
-  Manage your synagogue effortlessly with ShalomCloud's cloud-based tools for member tracking, secure donations, and event RSVPs. Free 2-month trial—no credit card needed.
+  Affordable, easy-to-use cloud-based software for synagogue and temple management. Features include Member Management, Billing, Form Builder, HH Honors, Yahrzeits, and QuickBooks integration. Start your free trial!
+ogtitle: ShalomCloud Synagogue Management Software
+ogdescription: Simplify synagogue administration with our cloud-based solution. Manage members, donations, yahrzeits, and finances effortlessly.

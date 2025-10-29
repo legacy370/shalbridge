@@ -4,7 +4,7 @@
 layout: default
 ---
 
-**ShalomCloud's Solution for Synagogue Honors: Streamlining Aliyot and High Holiday Management**
+<h1>ShalomCloud's Solution for Synagogue Honors: Streamlining Aliyot and High Holiday Management</h1>
 
 Managing ritual honors—from the weekly recitation of *Yahrzeits* to the complex assignment of *Aliyot* during the High Holy Days—is a core task for synagogue administrators. Based on features detailed on its blog, ShalomCloud provides dedicated software capabilities designed to streamline the entire process of organizing, assigning, and communicating these honors.
 

@@ -3,7 +3,7 @@
 
 layout: default
 ---
-<h1>Streamlining Synagogue Donations: Insights from ShalomCloud's Blog on Efficient Management and Acknowledgment</h1>
+<h1>Streamlining Synagogue Donations: Efficient Management and Acknowledgment</h1>
 
 In the intricate world of synagogue administration, managing donations is both a sacred duty and a logistical challenge. Contributions—whether one-time gifts, recurring pledges, or honors for special occasions—form the financial backbone of many congregations, supporting everything from daily operations to capital campaigns.
    

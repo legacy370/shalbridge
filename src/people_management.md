@@ -4,7 +4,7 @@
 layout: default
 ---
 
-### Summary of Family and Member Management Features in ShalomCloud
+# Summary of Family and Member Management Features in ShalomCloud
 
 ShalomCloud synagogue management software handles various aspects of membership, with a strong emphasis on organizing family units (also referred to as households) and individual members. The platform provides tools for tracking, querying, and updating family and member data efficiently, often with bulk operations and self-service options to reduce administrative workload. Key features include customizable attributes, role assignments, query capabilities, and integrations for communications, including targeted emails and text messages. Below is a consolidated overview.
 

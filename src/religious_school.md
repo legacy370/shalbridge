@@ -4,7 +4,7 @@
 layout: default
 ---
 
-## Religious School Management Features
+# Religious School Management Features
 
 **Student Tracking & Organization**
 - Track students by grade level
