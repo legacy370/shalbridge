@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://shalomcloud.com/</loc>
+  <lastmod>2025-10-27T03:03:36+00:00</lastmod>
+  <priority>1.00</priority>
+  
+</url>
+<url>
+  <loc>https://shalomcloud.com/people_management/</loc>
+  <lastmod>2025-10-26T16:31:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/donations/</loc>
+  <lastmod>2025-10-26T16:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/shopping_cart/</loc>
+  <lastmod>2025-10-26T16:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/yahrzeits/</loc>
+  <lastmod>2025-10-26T16:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/aliyot_honors/</loc>
+  <lastmod>2025-10-26T16:31:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/formbuilder_summary/</loc>
+  <lastmod>2025-10-26T16:31:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/religious_school/</loc>
+  <lastmod>2025-10-26T16:31:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/quickbooks_integration/</loc>
+  <lastmod>2025-10-26T16:31:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://shalomcloud.com/videos/overview/index.html</loc>
+    <lastmod>2025-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+</urlset>

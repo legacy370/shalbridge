@@ -267,3 +267,9 @@ img {
   height: auto;
   max-width: 100%;
 }
+.security-badge {
+  margin-top: 1rem;
+  display: block;
+  width: 5rem;
+  height: auto;
+}
