@@ -7,7 +7,7 @@ layout: default
 # The ShalomCloud Shopping Cart: Event Registration and Sale of Items
 
 The ShalomCloud shopping cart provides synagogues with a versatile tool for handling event registrations, product sales, and fee collection. The shopping cart enables simple event registration and the purchase of fixed-priced items, including classes, high holiday tickets, Lulav and Etrog sets—really anything with a price, including zero.
-
+<img src="/images/shopping_cart.png"/>
 ### Core Shopping Cart Features
 
 **Item Configuration**

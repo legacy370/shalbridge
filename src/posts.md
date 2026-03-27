@@ -7,6 +7,7 @@ title: Latest Enhancements
   <% collections.posts.each do |post| %>
     <li>
       <a href="<%= post.relative_url %>"><%= post.data.title %></a>
+      <p><%= post.data.short_desc %></p>
     </li>
   <% end %>
 </ul>
