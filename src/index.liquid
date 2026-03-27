@@ -3,151 +3,175 @@
 
 layout: default
 ---
-<h1>Discover ShalomCloud</h1>
-<!-- Add this where you want the video -->
-<section class="video-section">
-  <div class="container">
-    <div class="video-wrapper">
-      <video 
-        controls
-        preload="none"
-        loop
-        playsinline
-        preload="metadata"
-        poster="/images/poster.webp">
-        <source src="/videos/ShalomCloud_Overview.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+
+<!-- ═══════════════════════════════════════════
+     HERO — full-width teal band, outside <main>
+     The default.html layout must wrap yield in
+     a conditional so homepage skips <main>.
+     See default.html changes below.
+     ═══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-kicker">Membership Tracking | Yahrzeit Reminders | Event Management</p>
+      <h1>Synagogue essentials for every core need—membership, events, and finance.</h1>
+      <p class="hero-desc">One trusted platform serving administrators, educators, and treasurers alike.</p>
+      <a href="/#contact" class="hero-btn">Get Started Today</a>
+    </div>
+    <div class="hero-media">
+      <div class="video-wrapper">
+        <video
+          controls
+          preload="metadata"
+          loop
+          playsinline
+          poster="/images/poster.webp">
+          <source src="/videos/ShalomCloud_Overview.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   </div>
 </section>
- 
- 
 
-<h1>Why Choose ShalomCloud?</h1>
-<h2 class="text-center"><a href="videos/overview">Watch a video overview</a></h2>
-<div class="features-grid" id="features">
-  <div class="feature">
-    <i class="bi bi-people"></i>
-    <h3>Member Management</h3>
-    <p><a href="{% link people_management.md %}">Easily track and manage member profiles, communications, and engagement in one place.</a></p>
+<!-- ═══════════════════════════════════════════
+     FEATURES
+     ═══════════════════════════════════════════ -->
+<section class="section-light" id="features">
+  <div class="section-inner">
+    <h2 class="section-heading">What You Can Expect</h2>
+    <p class="section-sub"><a href="/videos/overview"><i class="bi bi-play-circle"></i> Watch a video overview</a></p>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-people"></i></div>
+        <h3>Member Management</h3>
+        <p><a href="{% link people_management.md %}">Easily track and manage member profiles, communications, and engagement in one place.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-credit-card"></i></div>
+        <h3>Donation Tracking</h3>
+        <p><a href="{% link donations.md %}">Streamline donation collection and reporting with secure, automated tools.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-calendar-event"></i></div>
+        <h3>Event Scheduling</h3>
+        <p><a href="{% link shopping_cart.md %}">Allow members and non-members to register for events and to purchase items.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-envelope"></i></div>
+        <h3>Yahrzeits</h3>
+        <p><a href="{% link yahrzeits.md %}">Send Yahrzeit reminders, by email or surface mail. Produce bimah lists.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-view-stacked"></i></div>
+        <h3>High Holiday Honors</h3>
+        <p><a href="{% link aliyot_honors.md %}">Send High Holiday nominations for honors; track acceptances; send reminders.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-ui-checks"></i></div>
+        <h3>Form Builder</h3>
+        <p><a href="{% link formbuilder_summary.md %}">Create forms; can be used for membership renewal and religious school registration, for example.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-ui-checks-grid"></i></div>
+        <h3>Cemetery</h3>
+        <p><a href="https://docs.google.com/presentation/d/18fx1bDKk48lt7GJV6pjfSx6hPXUtBPKNXWfTEwPhw9o/">Track responsible for, reserved for, and occupant by plot. Attach documents and pictures to each plot.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-shop"></i></div>
+        <h3>Religious School</h3>
+        <p><a href="{% link religious_school.md %}">Track students per grade level; produce rosters, email or text parents.</a></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon"><i class="bi bi-bank"></i></div>
+        <h3>QuickBooks Integration</h3>
+        <p><a href="{% link quickbooks_integration.md %}">Automatically create entries in QuickBooks as funds are received.</a></p>
+      </div>
+
+    </div>
   </div>
+</section>
 
-  <div class="feature">
-    <i class="bi bi-credit-card"></i>
-    <h3>Donation Tracking</h3>
-    <p><a href="{% link donations.md %}">Streamline donation collection and reporting with secure, automated tools.</a></p>
-  </div>
+<!-- ═══════════════════════════════════════════
+     PRICING
+     ═══════════════════════════════════════════ -->
+<section class="section-gray" id="pricing">
+  <div class="section-inner">
+    <h2 class="section-heading">Simple, Affordable Pricing</h2>
 
-  <div class="feature">
-    <i class="bi bi-calendar-event"></i>
-    <h3>Event Scheduling</h3>
-    <p>
-      <a href="{% link shopping_cart.md %}">
-        Allow members and non-members to register for events and to purchase items.
-      </a>
-    </p>
-  </div>
+    <div class="pricing-grid">
 
-  <div class="feature">
-    <i class="bi bi-envelope"></i>
-    <h3>Yahrzeits</h3>
-    <p><a href="{% link yahrzeits.md %}">Send Yahrzeit reminders, by email or surface mail. Produce bimah lists.</a></p>
-  </div>
-
-  <div class="feature">
-    <i class="bi bi-view-stacked"></i>
-    <h3>High Holiday Honors</h3>
-    <p><a href="{% link aliyot_honors.md %}">Send High Holiday nominations for honors; track acceptances; send reminders.</a></p>
-  </div>
-
-  <div class="feature">
-    <i class="bi bi-ui-checks"></i>
-    <h3>Form Builder</h3>
-    <p><a href="{% link formbuilder_summary.md %}">Create forms; can be used for membership renewal and religious school registration, for example.</a></p>
-  </div>
-
-  <div class="feature">
-    <i class="bi bi-ui-checks-grid"></i>
-    <h3>Cemetery</h3>
-    <p><a href="https://docs.google.com/presentation/d/18fx1bDKk48lt7GJV6pjfSx6hPXUtBPKNXWfTEwPhw9o/">
-    Track responsible for, reserved for, and occupant by plot. Attach documents and pictures to each plot.</a></p>
-  </div>
-
-  <div class="feature">
-    <i class="bi bi-shop"></i>
-    <h3>Religious School</h3>
-    <p><a href="{% link religious_school.md %}">
-        Track students per grade level; produce rosters, email or text parents.
-        </a>
-    </p>
-  </div>
-
-  <div class="feature">
-    <i class="bi bi-bank"></i>
-    <h3>QuickBooks integration</h3>
-    <p><a href="{% link quickbooks_integration.md %}">Automatically create entries in QuickBooks as funds are received.</a></p>
-  </div>
-</div>
-
-
-<div id="pricing" class="pricing-section"><h1>Simple, Affordable Pricing</h1></div>
-
-<div class="features-grid">
-  <div class="pricing-card">
-    <h3>Small Plans</h3>
-    <ul>
-      <li><i class="bi bi-check-circle"></i>Up to 125 Member Families</li>
-    </ul>
-    <div class="price">$36/month</div>
-    <div class="support-label">Standard Support</div>
-    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
-    <hr class="tier-separator">
-    <div class="support-tier premium-tier">
-        <div class="price">$72/month</div>
+      <div class="pricing-card">
+        <h3>Small Plans</h3>
+        <p class="pricing-size"><i class="bi bi-check-circle"></i> Up to 125 Member Families</p>
+        <div class="price">$36<span class="price-unit">/month</span></div>
+        <div class="support-label">Standard Support</div>
+        <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+        <hr class="tier-separator">
+        <div class="price">$72<span class="price-unit">/month</span></div>
         <div class="support-label">Premium Support</div>
         <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
-    </div>
-  </div>
-  <div class="pricing-card">
-    <h3>Medium Plans</h3>
-    <ul>
-      <li><i class="bi bi-check-circle"></i>126 to 250 Member Families</li>
-    </ul>
-    <div class="price">$54/month</div>
-    <div class="support-label">Standard Support</div>
-    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
-    <hr class="tier-separator">
-    <div class="support-tier premium-tier">
-      <div class="price">$108/month</div>
-      <div class="support-label">Premium Support</div>
-      <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
-    </div>
-  </div>
-  <div class="pricing-card">
-    <h3>Large Plans</h3>
-    <ul>
-      <li><i class="bi bi-check-circle"></i>Over 250 Member Families</li>
-    </ul>
-    <div class="price">$72/month</div>
-    <div class="support-label">Standard Support</div>
-    <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
-    <hr class="tier-separator">
-    <div class="support-tier premium-tier">
-      <div class="price">$144/month</div>
-      <div class="support-label">Premium Support</div>
-      <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
-      
-    </div>
-  </div>
-  </div>
-  <div class="trial-offer">Two-month free trial for all levels</div>
-  <div><p class="text-center text-muted small">No credit card required. Full access during trial.</p></div>
+      </div>
 
-{% render "contact_form" %}
+      <div class="pricing-card pricing-card--featured">
+        <div class="pricing-badge">Most Popular</div>
+        <h3>Medium Plans</h3>
+        <p class="pricing-size"><i class="bi bi-check-circle"></i> 126 to 250 Member Families</p>
+        <div class="price">$54<span class="price-unit">/month</span></div>
+        <div class="support-label">Standard Support</div>
+        <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+        <hr class="tier-separator">
+        <div class="price">$108<span class="price-unit">/month</span></div>
+        <div class="support-label">Premium Support</div>
+        <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
+      </div>
 
-<img src="/images/ShalomCloud_Menus.gif" alt="Main Menu" />
+      <div class="pricing-card">
+        <h3>Large Plans</h3>
+        <p class="pricing-size"><i class="bi bi-check-circle"></i> Over 250 Member Families</p>
+        <div class="price">$72<span class="price-unit">/month</span></div>
+        <div class="support-label">Standard Support</div>
+        <p class="small-print">Support ticket/Email only, ~2 Business Day response</p>
+        <hr class="tier-separator">
+        <div class="price">$144<span class="price-unit">/month</span></div>
+        <div class="support-label">Premium Support</div>
+        <p class="small-print">Priority triage, phone/email, minutes-to-hours response</p>
+      </div>
 
+    </div>
+
+    <p class="trial-offer">
+      <i class="bi bi-gift"></i>
+      Two-month free trial for all levels
+    </p>
+    <p class="text-center text-muted">No credit card required. Full access during trial.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CONTACT
+     ═══════════════════════════════════════════ -->
+<section class="section-light" id="contact">
+  <div class="section-inner">
+    <h2 class="section-heading">Contact Us / Request Demo</h2>
+    {% render "contact_form" %}
+    <img src="/images/ShalomCloud_Menus.gif" alt="Main Menu" class="menu-screenshot" />
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     STRUCTURED DATA — unchanged from original
+     ═══════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
