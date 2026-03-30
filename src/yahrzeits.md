@@ -21,6 +21,8 @@ For congregations managing extensive memorial records, bulk data entry capabilit
 The heart of Yahrzeit management lies in establishing meaningful connections between the deceased and living congregants. Modern systems associate Yahrzeits directly with synagogue members, creating a relational database that serves multiple purposes. When administrators query the system for upcoming Yahrzeits, the results display not only the memorial dates themselves but also the relationships to current congregants.
 
 This connection enables personalized communication and ensures that appropriate family members receive timely notifications. The system recognizes that different families may have different preferences for how they wish to be notified, accommodating both Hebrew date and Gregorian date preferences, or even allowing families to opt out of notifications entirely.
+![Yahrzeit relationships](/images/yahrzeit_relationships.png)
+<figcaption>Each Yahrzeit links to multiple observers; and each observer can choose a reminder according to either the Hebrew date of death or the Gregorian date of death</figcaption>
 
 ## Memorial Plaques and Physical Commemorations
 
@@ -31,6 +33,8 @@ Many congregations offer Yahrzeit plaques as permanent memorials, and effective 
 Timely and sensitive communication forms the cornerstone of effective Yahrzeit management. Modern systems offer multiple communication channels, including email notifications and formatted letters, allowing administrators to reach congregants through their preferred medium.
 
 The notification system has evolved to offer enhanced formatting capabilities, including control over fonts, colors, sizing, and even picture placement. This evolution recognizes that Yahrzeit communications serve not merely as reminders but as meaningful expressions of sympathy and remembrance.
+<img src="/images/yahrzeit_reminders.png">
+<figcaption>Yahzeit reminders available by surface mail, email, or both</figcaption>
 
 ### Tabular Format for Multiple Yahrzeits
 
