@@ -8,22 +8,26 @@
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
   <body class='homepage'>
-
     <nav class="navbar">
       <div class="container">
         <a href="/" class="navbar-brand">
           <img src="/images/SC_Reduced.webp" alt="ShalomCloud" class="logo">
         </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.closest('.navbar').classList.toggle('nav-open')">
+          <i class="bi bi-list"></i>
+        </button>
         <ul class="nav-menu">
           <li><a href="/">Home</a></li>
           <li><a href="/#features">Features</a></li>
           <li><a href="/#pricing">Pricing</a></li>
           <li><a href="/posts">Latest enhancements</a></li>
           <li><a href="https://blog.shalomcloud.com">Our Blog</a></li>
+          <li class="nav-cta-mobile"><a href="/#contact">Contact Us</a></li>
         </ul>
-        <a href="/#contact" class="nav-cta">Contact Us</a>
+        <a href="/#contact" class="nav-cta nav-cta-desktop">Contact Us</a>
       </div>
     </nav>
+
     <% if resource.relative_url == "/" %>
   <%= yield %>
 <% else %>
