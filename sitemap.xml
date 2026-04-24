@@ -2,7 +2,6 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
@@ -10,54 +9,102 @@
 
 <url>
   <loc>https://shalomcloud.com/</loc>
-  <lastmod>2025-10-27T03:03:36+00:00</lastmod>
+  <lastmod>2026-04-24T21:19:57+00:00</lastmod>
   <priority>1.00</priority>
-  
+</url>
+<url>
+  <loc>https://shalomcloud.com/posts/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/videos/overview/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/people_management/</loc>
-  <lastmod>2025-10-26T16:31:40+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/donations/</loc>
-  <lastmod>2025-10-26T16:31:42+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/shopping_cart/</loc>
-  <lastmod>2025-10-26T16:31:38+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/yahrzeits/</loc>
-  <lastmod>2025-10-26T16:31:21+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/aliyot_honors/</loc>
-  <lastmod>2025-10-26T16:31:42+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/formbuilder_summary/</loc>
-  <lastmod>2025-10-26T16:31:41+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/religious_school/</loc>
-  <lastmod>2025-10-26T16:31:39+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shalomcloud.com/quickbooks_integration/</loc>
-  <lastmod>2025-10-26T16:31:39+00:00</lastmod>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-    <loc>https://shalomcloud.com/videos/overview/index.html</loc>
-    <lastmod>2025-12-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  <loc>https://shalomcloud.com/migrate_from_chaverware/</loc>
+  <lastmod>2026-04-24T19:07:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://shalomcloud.com/update/2026/03/30/mailing-labels-with-statements/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/update/2026/03/27/more-flexible-donations-acknowledgements/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2026/03/13/batch-yahrzeit-reminders-by-email/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2026/02/25/printed-letters-for-individuals/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2026/02/08/override-account-to-debit-on-payment-copy/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2025/12/08/new-ability-to-undiscard/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2025/10/17/fintran-query-by-attribute/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shalomcloud.com/updates/2025/10/17/new-simplied-accounts-receivable-report/</loc>
+  <lastmod>2026-04-10T21:19:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url
 </urlset>

@@ -8,8 +8,8 @@ http.use_ssl = true
 req = Net::HTTP::Post.new(uri, 'Content-Type' => 'application/json; charset=utf-8')
 req.body = {
   host: 'shalomcloud.com',
-  key: '1285047e06d64311a660bcf7fedd6b53',
-  keyLocation: 'https://shalomcloud.com/1285047e06d64311a660bcf7fedd6b53.txt',
+  key: 'b40389c7f32e43ab83dce297a27e8b93',
+  keyLocation: 'https://shalomcloud.com/b40389c7f32e43ab83dce297a27e8b93.txt',
   urlList: ['https://shalomcloud.com/']
 }.to_json
 

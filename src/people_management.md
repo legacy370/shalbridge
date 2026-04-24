@@ -1,7 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
 
 layout: default
+title: Managing Households
 ---
 
 # Summary of Family and Member Management Features in ShalomCloud

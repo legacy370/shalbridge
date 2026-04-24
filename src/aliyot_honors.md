@@ -25,6 +25,7 @@ ShalomCloud offers a specialized **Aliyot/Honors capability** built to handle th
     * **Sending reminders** for accepted honors to ensure honorees are prepared for their service time.
 
     <img src="/images/HH_Honors.webp" alt="Emailing for accepted honors" />
+    <figcaption>Email reminders, with the specifics about the honor</figcaption>
 
 ### **The Bimah List: Streamlining Weekly Yahrzeit Honors**
 
