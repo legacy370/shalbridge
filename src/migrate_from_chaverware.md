@@ -56,4 +56,4 @@ We believe in being straightforward. ShalomCloud does not currently include a re
 
 We'd be glad to walk you through ShalomCloud and answer any questions about the migration process. Request a demo using the form below, and we'll be in touch promptly.
 
-[Request a Demo](shalomcloud.com/#contact)
+[Request a Demo](https://shalomcloud.com/#contact)
