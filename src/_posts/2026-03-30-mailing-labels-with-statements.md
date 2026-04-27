@@ -49,4 +49,4 @@ The system controls label layout (padding, spacing, and margins). Printer scalin
 - Statements print from the **statements PDF**.
 - Mailing labels print from the **labels PDF** using **Actual Size** to preserve alignment.
 
-See the full video: https://share.shalomcloud.com/12uYobYG?sa=technical_documentation
+[See the full video](https://share.shalomcloud.com/12uYobYG?sa=technical_documentation)
