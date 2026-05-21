@@ -40,6 +40,13 @@ Bridgetown.configure do |config|
   # https://www.bridgetownrb.com/docs/content/permalinks
   #
   # permalink "simple"
+  config.collections = {
+    tutorials: {
+      output: true,
+      permalink: "/tutorials/:slug/"
+    }
+  }
+
 
   # Optionally host your site off a path, e.g. /blog. If you set this option,
   # ensure you use the `relative_url` helper for all links and assets in your HTML.
